@@ -1,0 +1,44 @@
+* Linux AwesomeWM Modular Starter Kit
+
+This is a Modular Starter Kit for AwesomeWM, it aesthetically stays close to the
+default AwesomeWM config, however there are a few sane functional defaults that
+are added in and everything is completely refactored into their respective
+modular files. This makes everything neat and hopefully more understandable for
+beginners, or just giving more experienced users a quick base to jump off of.
+
+[[.preview.png]]
+
+
+** Dependencies
+
+- awesome
+
+*** Optional Dependencies used by default in config
+
+  - kitty
+  - pcmanfm
+  - vim
+  - picom
+  - nm-applet
+  - numlockx
+  - gnome polkit
+  - gnome keyring
+  - udiskie
+
+** Some of the added defaults  
+
+- Double clicking on titlebars will cause client maximization state to toggle
+- Cleanup of how the tag group displays in the awesomewm help popup
+- Binding added that allows you to move client to another tag with arrowkeys
+- Super + D opens the menubar prompt which is similiar to dmenu
+- Reasonable autostart applications, such as policykit and automatic media mounter (in /run/media/)
+
+* Credits
+
+- Credits to the Material Awesome project, borrowed hierarchy and some code from there:
+
+[[https://github.com/HikariKnight/material-awesome]]
+
+- Credits to this thread for the client titlebar maximization code:
+
+[[https://www.reddit.com/r/awesomewm/comments/fesopj/double_clicking_titlebar/]]
